@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Cheat Sheet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+    <div class="logo">Intro to Web Development Website</div>
+
+    <div class="menu" id="menu">
+        <a href="index.html">Home</a>
+        <a href="html.html">HTML</a>
+        <a href="css.html">CSS</a>
+        <a href="JavaScript.html">JavaScript</a>
+        <a href="hobby.html">Hobby</a>
+        <a href="contact.html">Contact</a>
+        <a href="Hobby.html" class="next-btn">Next →</a>
+    </div>
+
+    <div class="hamburger" onclick="hamburger()">☰</div>
+    </nav>
+
+    <section class="page">
+    <h1>JavaScript Cheat Sheet</h1>
+    <p class="subtitle">
+        Common JavaScript concepts used to add interactivity to websites.
+    </p>
+
+    <div class="grid">
+
+        <div class="card">
+        <h3>Variables</h3>
+        <p>Store data values.</p>
+        <code>let x = 5;</code>
+        </div>
+
+        <div class="card">
+        <h3>const</h3>
+        <p>Variable that cannot change.</p>
+        <code>const name = "Alex";</code>
+        </div>
+
+        <div class="card">
+        <h3>Functions</h3>
+        <p>Reusable blocks of code.</p>
+        <code>function hello() { }</code>
+        </div>
+
+        <div class="card">
+        <h3>Arrow Functions</h3>
+        <p>Shorter function syntax.</p>
+        <code>const add = (a,b) => a + b;</code>
+        </div>
+
+        <div class="card">
+        <h3>if Statement</h3>
+        <p>Runs code if condition is true.</p>
+        <code>if (x &gt; 0) { }</code>
+        </div>
+
+        <div class="card">
+        <h3>else</h3>
+        <p>Runs code if condition is false.</p>
+        <code>else { }</code>
+        </div>
+
+        <div class="card">
+        <h3>for Loop</h3>
+        <p>Repeats code.</p>
+        <code>for (let i=0; i&lt;5; i++) { }</code>
+        </div>
+
+        <div class="card">
+        <h3>while Loop</h3>
+        <p>Repeats while condition is true.</p>
+        <code>while (x &lt; 10) { }</code>
+        </div>
+
+        <div class="card">
+        <h3>Arrays</h3>
+        <p>Store multiple values.</p>
+        <code>let nums = [1,2,3];</code>
+        </div>
+
+        <div class="card">
+        <h3>Objects</h3>
+        <p>Store related data.</p>
+        <code>let user = { name: "Sam" };</code>
+        </div>
+
+        <div class="card">
+        <h3>Events</h3>
+        <p>Respond to user actions.</p>
+        <code>button.onclick = myFunc;</code>
+        </div>
+
+        <div class="card">
+        <h3>addEventListener</h3>
+        <p>Adds an event handler.</p>
+        <code>btn.addEventListener("click", run);</code>
+        </div>
+
+        <div class="card">
+        <h3>document.getElementById</h3>
+        <p>Selects an element.</p>
+        <code>document.getElementById("menu");</code>
+        </div>
+
+        <div class="card">
+        <h3>innerHTML</h3>
+        <p>Changes HTML content.</p>
+        <code>el.innerHTML = "Hi";</code>
+        </div>
+
+        <div class="card">
+        <h3>console.log</h3>
+        <p>Outputs to console.</p>
+        <code>console.log("Hello");</code>
+        </div>
+
+    </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
